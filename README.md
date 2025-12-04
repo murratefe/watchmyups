@@ -8,7 +8,7 @@
 [![Python Version][python-version-shield]][python-version-url]
 [![Buy Me A Coffee][buyme-a-coffee]][buyme-a-coffee-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
-[![PyPI][pypi-shield]][pypi-url]
+
 
 # WatchMyUPS
 
