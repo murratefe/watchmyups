@@ -155,7 +155,7 @@ You can also support the project by starring the repository and sharing it with 
 [docker-url]: https://docs.docker.com/get-started/
 [nut-installation-guide]: https://technotim.live/posts/NUT-server-guide/
 [reddit-shield]: https://img.shields.io/badge/Reddit-%23FF4500.svg?style=for-the-badge&logo=reddit&logoColor=white
-[reddit-url]: https://www.reddit.com/user/Zestyclose-Fruit9925/
+[reddit-url]: https://www.reddit.com/user/Muratefe2/
 [buyme-a-coffee]: https://img.shields.io/badge/Buy%20Me%20A-Coffee-yellow?style=for-the-badge&logo=buy-me-a-coffee
 [github-shield]: https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white
 [kaggle-shield]: https://img.shields.io/badge/Kaggle-%23121011.svg?style=for-the-badge&logo=kaggle&logoColor=white
