@@ -50,7 +50,7 @@ WatchMyUPS is a FastAPI-based application that utilizes NUT (Network UPS Tools) 
 
 ### Prerequisites
 
-1. Install and configure [NUT (Network UPS Tools)][nut-url] (AYou can also check this for a more detailed [NUT installation guide.][nut-installation-guide])
+1. Install and configure [NUT (Network UPS Tools)][nut-url] (You can also check this for a more detailed [NUT installation guide.][nut-installation-guide])
 2. Install [Docker][docker-url] (This step is optional. You can follow it if you want to run WatchMyUPS on a container.)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
