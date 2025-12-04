@@ -4,9 +4,11 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![GPL License][license-shield]][license-url]
+[![PyPI][pypi-shield]][pypi-url]
 [![Python Version][python-version-shield]][python-version-url]
 [![Buy Me A Coffee][buyme-a-coffee]][buyme-a-coffee-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
+[![PyPI][pypi-shield]][pypi-url]
 
 # WatchMyUPS
 
@@ -160,6 +162,8 @@ You can also support the project by starring the repository and sharing it with 
 [kaggle-url]: https://www.kaggle.com/muratefe
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/murratefe/
+[pypi-shield]: https://img.shields.io/pypi/v/watchmyups.svg?style=for-the-badge
+[pypi-url]: https://pypi.org/project/watchmyups/
 [github-url]: https://github.com/murratefe/
 [buyme-a-coffee-url]: https://www.buymeacoffee.com/murratefe
 [usdt-shield]: https://img.shields.io/badge/USDT(BEP20)-black?style=for-the-badge&logo=tether
