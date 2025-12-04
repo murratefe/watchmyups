@@ -12,7 +12,7 @@
 
 # WatchMyUPS
 
-A FastAPI application to expose data from UPS devices via NUT (Network UPS Tools).
+A FastAPI application to collect and expose data from UPS devices via NUT (Network UPS Tools).
 
 <!-- TABLE OF CONTENTS -->
 <details>
