@@ -1,0 +1,34 @@
+#Project: WatchMyUPS
+#Descriptin: WatchMyUPS is a FastAPI application to expose data from UPS devices via NUT (Network UPS Tools).
+#Docker compose file to build and run the WatchMyUPS container.
+#Author: Murat Efe
+#License: GNU General Public License v3.0
+#Copyright (c) 2025 Murat EFE
+#Github: https://github.com/murratefe/watchmyups
+
+version: "3.9" 
+
+services:
+
+  watchmyups: 
+    image: ghcr.io/murratefe/watchmyups:latest # Use the latest image from GitHub Container Registry
+    container_name: watchmyups
+    
+    ports:
+      - "9999:9999" # Expose port 9999 for the exporter
+    environment:
+      NUT_HOST: "127.0.0.1" # IP address of the NUT server. Default: 127.0.0.1
+      NUT_PORT: 3493 # Default NUT port. Default: 3493
+      NUT_LOGIN: "" # NUT username. Default: None
+      NUT_PASSWORD: "" # NUT password. DeFault: None
+      NUT_DEBUG: False # Enable or disable debug mode. Default: False
+      NUT_TIMEOUT: 5 # Timeout for NUT operations. Default: 5 seconds
+      EXPORT_HOST: "0.0.0.0" # EXPORTER bind address. Default: 0.0.0.0
+      EXPORT_PORT: 9999 # Port for the exporter service. Default: 9999
+      
+
+    restart: unless-stopped # Restart policy
+
+networks: # Define networks section
+  watchmyups: # Define a custom network
+    driver: bridge # Use bridge network driver

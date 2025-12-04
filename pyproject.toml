@@ -1,0 +1,38 @@
+[project]
+name = "watchmyups"
+version = "1.0.0"
+description = "A FastAPI application to expose UPS data via NUT (Network UPS Tools)"
+readme = "README.md"
+requires-python = ">=3.12"
+license = { file = "LICENSE" }
+authors = [
+  { name = "Murat EFE"}
+]
+
+keywords = ["ups", "nut", "fastapi", "monitoring",'watchmyups','nut2','power','powerloss','api']
+
+classifiers = [
+  "Programming Language :: Python :: 3.12",
+  "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+  "Operating System :: OS Independent"
+]
+
+dependencies = ["fastapi==0.122.0","nut2==2.1.1","pydantic==2.12.5","uvicorn==0.38.0"]
+
+[build-system]
+requires = ["setuptools>=80.9.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project.scripts]
+watchmyups = "watchmyups.__main__:main"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.urls]
+Homepage = "https://github.com/murratefe/watchmyups"
+Repository = "https://github.com/murratefe/watchmyups"
+Issues = "https://github.com/murratefe/watchmyups/issues"

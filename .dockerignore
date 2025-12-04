@@ -1,0 +1,44 @@
+# Docker / Compose
+docker-compose.yml
+Dockerfile
+
+#Python cache
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.pyd
+*.py[cod]
+
+#OS / Editor files
+**/.DS_Store
+**/.idea/
+**/.vscode/
+
+#Virtual environments
+.venv/
+.python-version
+.env
+
+# OS / Editor files
+.DS_Store
+.idea/
+.vscode/
+
+# Git
+.git/
+.gitignore
+.git
+.gitattributes
+.gitignore
+.github/
+
+
+# Build outputs
+dist/
+build/
+**/*.egg-info/
+
+
+# Documentation
+README.md
+CHANGELOG.md

@@ -1,0 +1,27 @@
+#python
+**/__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Distribution / packaging
+build/
+dist/
+**/*.egg-info/
+
+
+# Virtual environments
+.venv/
+.python-version
+.env
+
+# OS / Editor files
+.DS_Store
+.idea/
+.vscode/
+
+
+# PyPI configuration file
+.pypirc
+
+
