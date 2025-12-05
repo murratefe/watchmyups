@@ -70,11 +70,11 @@ WatchMyUPS is a FastAPI-based application that utilizes NUT (Network UPS Tools) 
 #### Docker
 1. Clone the repo
    ```sh
-   cd watchmyups
    git clone https://github.com/murratefe/watchmyups.git
    ```
 2. Docker up
     ```sh
+    cd watchmyups
     docker-compose up
     ```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
